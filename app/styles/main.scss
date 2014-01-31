@@ -1,0 +1,54 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0 0;
+    }
+
+    .container-fluid {
+        height: 100%;
+        display: table;
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 50%;
+
+    }
+
+    .row-fluid {
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .centering {
+        float: none;
+        margin: 0 auto;
+    }
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
