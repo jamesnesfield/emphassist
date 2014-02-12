@@ -4,7 +4,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
  #search {
 	overflow: hidden;
-	height: 33px;
+	height: 34px;
 	border-color: #CAC4C4;
 	border-width: 1px;
 	border-radius: 1px;
@@ -30,7 +30,7 @@ p{
 }
 
 .info {
-	margin:80px 0px;
+	margin:60px 0px;
 }
 
 tt {
@@ -46,12 +46,7 @@ hr{
 	margin:20px 0px 70px 0px;
 }
 
-.footer {
-	padding-top: 19px;
-	color: #777;
-	border-top: 0px solid #e5e5e5;
-	text-align:right;
-}
+
 
 html, body {
 		height: 100%;
@@ -119,8 +114,9 @@ body {
 /* Custom page footer */
 .footer {
 	padding-top: 19px;
-	color: #777;
-	border-top: 1px solid #e5e5e5;
+	color: #CCC;
+	border-top: 0px solid #FFF;
+	text-align:right;
 }
 
 .container-narrow > hr {

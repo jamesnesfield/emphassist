@@ -19847,7 +19847,7 @@ td.visible-print {
 
 #search {
   overflow: hidden;
-  height: 33px;
+  height: 34px;
   border-color: #CAC4C4;
   border-width: 1px;
   border-radius: 1px;
@@ -19917,7 +19917,7 @@ p {
 }
 
 .info {
-  margin: 80px 0px;
+  margin: 60px 0px;
 }
 
 @media -sass-debug-info {
@@ -19969,24 +19969,7 @@ hr {
   }
 
   line {
-    font-family: \0000349;
-  }
-}
-
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 0px solid #e5e5e5;
-  text-align: right;
-}
-
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/James\/Development\/emphassist\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \0000356;
+    font-family: \0000351;
   }
 }
 
@@ -20004,7 +19987,7 @@ body {
   }
 
   line {
-    font-family: \0000363;
+    font-family: \0000358;
   }
 }
 
@@ -20023,7 +20006,7 @@ body {
   }
 
   line {
-    font-family: \0000373;
+    font-family: \0000368;
   }
 }
 
@@ -20040,7 +20023,7 @@ body {
   }
 
   line {
-    font-family: \0000380;
+    font-family: \0000375;
   }
 }
 
@@ -20055,7 +20038,7 @@ body {
   }
 
   line {
-    font-family: \0000385;
+    font-family: \0000380;
   }
 }
 
@@ -20074,7 +20057,7 @@ body {
   }
 
   line {
-    font-family: \0000393;
+    font-family: \0000388;
   }
 }
 
@@ -20091,7 +20074,7 @@ body {
   }
 
   line {
-    font-family: \00003101;
+    font-family: \0000396;
   }
 }
 
@@ -20110,7 +20093,7 @@ body {
   }
 
   line {
-    font-family: \00003107;
+    font-family: \00003102;
   }
 }
 
@@ -20125,7 +20108,7 @@ body {
   }
 
   line {
-    font-family: \00003111;
+    font-family: \00003106;
   }
 }
 
@@ -20144,14 +20127,15 @@ body {
   }
 
   line {
-    font-family: \00003120;
+    font-family: \00003115;
   }
 }
 
 .footer {
   padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+  color: #CCC;
+  border-top: 0px solid #FFF;
+  text-align: right;
 }
 
 @media -sass-debug-info {
@@ -20160,7 +20144,7 @@ body {
   }
 
   line {
-    font-family: \00003126;
+    font-family: \00003122;
   }
 }
 
@@ -20176,7 +20160,7 @@ body {
   }
 
   line {
-    font-family: \00003131;
+    font-family: \00003127;
   }
 }
 
@@ -20191,7 +20175,7 @@ body {
   }
 
   line {
-    font-family: \00003134;
+    font-family: \00003130;
   }
 }
 
@@ -20208,7 +20192,7 @@ body {
   }
 
   line {
-    font-family: \00003141;
+    font-family: \00003137;
   }
 }
 
@@ -20222,7 +20206,7 @@ body {
   }
 
   line {
-    font-family: \00003143;
+    font-family: \00003139;
   }
 }
 
@@ -20239,7 +20223,7 @@ body {
     }
 
     line {
-      font-family: \00003150;
+      font-family: \00003146;
     }
 }
 
@@ -20255,7 +20239,7 @@ body {
     }
 
     line {
-      font-family: \00003157;
+      font-family: \00003153;
     }
 }
 
@@ -20274,7 +20258,7 @@ body {
     }
 
     line {
-      font-family: \00003163;
+      font-family: \00003159;
     }
 }
 
@@ -20290,7 +20274,7 @@ body {
     }
 
     line {
-      font-family: \00003168;
+      font-family: \00003164;
     }
 }
 
