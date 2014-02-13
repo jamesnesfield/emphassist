@@ -19969,6 +19969,20 @@ hr {
   }
 }
 
+.style-button {
+  margin-right: 15px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jamesnesfield\/Development\/emphassist\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000353;
+  }
+}
+
 .btn-toolbar {
   margin-left: -5px;
   margin-bottom: -20px;
@@ -19982,11 +19996,11 @@ hr {
   }
 
   line {
-    font-family: \0000357;
+    font-family: \0000361;
   }
 }
 
-text-left {
+.text-left {
   text-align: left;
 }
 
@@ -19996,11 +20010,11 @@ text-left {
   }
 
   line {
-    font-family: \0000361;
+    font-family: \0000365;
   }
 }
 
-text-right {
+.text-right {
   text-align: right;
 }
 
@@ -20010,7 +20024,7 @@ text-right {
   }
 
   line {
-    font-family: \0000365;
+    font-family: \0000369;
   }
 }
 
@@ -20028,7 +20042,7 @@ body {
   }
 
   line {
-    font-family: \0000371;
+    font-family: \0000375;
   }
 }
 
@@ -20046,7 +20060,7 @@ body p {
   }
 
   line {
-    font-family: \0000379;
+    font-family: \0000383;
   }
 }
 
@@ -20065,7 +20079,7 @@ body p {
   }
 
   line {
-    font-family: \0000389;
+    font-family: \0000393;
   }
 }
 
@@ -20082,7 +20096,7 @@ body p {
   }
 
   line {
-    font-family: \0000396;
+    font-family: \00003100;
   }
 }
 
@@ -20097,7 +20111,7 @@ body p {
   }
 
   line {
-    font-family: \00003101;
+    font-family: \00003105;
   }
 }
 
@@ -20116,7 +20130,7 @@ body p {
   }
 
   line {
-    font-family: \00003109;
+    font-family: \00003113;
   }
 }
 
@@ -20133,7 +20147,7 @@ body {
   }
 
   line {
-    font-family: \00003117;
+    font-family: \00003121;
   }
 }
 
@@ -20152,7 +20166,7 @@ body {
   }
 
   line {
-    font-family: \00003123;
+    font-family: \00003127;
   }
 }
 
@@ -20167,7 +20181,7 @@ body {
   }
 
   line {
-    font-family: \00003127;
+    font-family: \00003131;
   }
 }
 
@@ -20178,6 +20192,24 @@ body {
   padding-bottom: 19px;
 }
 
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jamesnesfield\/Development\/emphassist\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003140;
+  }
+}
+
+.btn-bottom {
+  color: #B2B2B2 !important;
+  background-color: #fcfcfc !important;
+  border-color: #EEE !important;
+  margin: 25px 0px;
+  font-family: "Avenir";
+}
+
 /* Custom page footer */
 
 @media -sass-debug-info {
@@ -20186,7 +20218,7 @@ body {
   }
 
   line {
-    font-family: \00003136;
+    font-family: \00003149;
   }
 }
 
@@ -20202,7 +20234,7 @@ body {
   }
 
   line {
-    font-family: \00003142;
+    font-family: \00003155;
   }
 }
 
@@ -20218,7 +20250,7 @@ body {
   }
 
   line {
-    font-family: \00003147;
+    font-family: \00003160;
   }
 }
 
@@ -20233,7 +20265,7 @@ body {
   }
 
   line {
-    font-family: \00003150;
+    font-family: \00003163;
   }
 }
 
@@ -20250,7 +20282,7 @@ body {
   }
 
   line {
-    font-family: \00003157;
+    font-family: \00003170;
   }
 }
 
@@ -20264,12 +20296,42 @@ body {
   }
 
   line {
-    font-family: \00003159;
+    font-family: \00003172;
   }
 }
 
 .marketing p + h4 {
   margin-top: 28px;
+}
+
+@media only screen and (max-device-width: 650px) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/jamesnesfield\/Development\/emphassist\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003178;
+    }
+}
+
+  .text-left {
+    text-align: center;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/jamesnesfield\/Development\/emphassist\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003182;
+    }
+}
+
+  .text-right {
+    text-align: center;
+  }
 }
 
 /* Responsive: Portrait tablets and up */
@@ -20281,7 +20343,7 @@ body {
     }
 
     line {
-      font-family: \00003166;
+      font-family: \00003190;
     }
 }
 
@@ -20297,7 +20359,7 @@ body {
     }
 
     line {
-      font-family: \00003173;
+      font-family: \00003197;
     }
 }
 
@@ -20316,7 +20378,7 @@ body {
     }
 
     line {
-      font-family: \00003179;
+      font-family: \00003203;
     }
 }
 
@@ -20332,7 +20394,7 @@ body {
     }
 
     line {
-      font-family: \00003184;
+      font-family: \00003208;
     }
 }
 
