@@ -6,7 +6,8 @@
     "modernizr": "~2.6.2",
     "jquery": "~1.10.2",
     "jquery.hotkeys": "https://github.com/jeresig/jquery.hotkeys.git#~0.1.0",
-    "wysiwyg": "./app/scripts/wysiwyg.js"
+    "wysiwyg": "./app/scripts/wysiwyg.js",
+    "font-awesome": "~4.0.3"
   },
   "devDependencies": {}
 }

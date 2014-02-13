@@ -12,7 +12,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
-
+        <link rel="stylesheet" href="bower_components/sass-bootstrap/dist/css/bootstrap.css" />
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
@@ -20,48 +20,68 @@
         <!-- endbuild -->
         <script src="bower_components/modernizr/modernizr.js"></script>
         <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
     </head>
     <body>
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
         <div class="container">
             <div class="container-fluid">
                 <div class="row-fluid">
                     <div class="col-sm-offset-2 col-sm-8 centering"> 
-                        <h3><b>e</b>mph<i>assist_</i></h3>
+                    <div class="row">
+                        <div class="main-image">
+                            <img src="img/emph.gif">
+                        </div>
+                    </div>
+                    <div class="btn-toolbar" data-role="editor-toolbar" data-target="#search">
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-default" data-edit="strikethrough" title="Strikethrough"><i class="fa fa-strikethrough"></i></a>
+                      </div>
+                    </div>
+
                         <div class="input-group">
                             <span class="input-group-btn">
                                 <button class="btn btn-default" type="button" id="search-button"><span class="glyphicon glyphicon-search"/></button>
                             </span>
-                            <div id="search">
+                            <div id="search"></div>
+                        </div>
+                        <p class="info">
+                            A super alpha bug-ridden idea exploring the possibilities for rich text to more accurately and more easily express a search query's intent.
+                        </p>
+                        <hr>
+                        <p> Many people overlook the ability for Google search queries to <i><b>exclude</b></i> as well as include words or phrases - the syntax is ugly :</p>
+                        <p>
+                            <tt>salsa recipe -tomatoes</tt>
+                        </p>
+                        <p>Emphassist uses a familiar typographical approach to make these more advanced searches easier, clearer and more natural :</p>
+                        <p>
+                            <tt>salsa recipe <strike>tomatoes</strike></tt>
+                        </p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6 pull-left">
+                                <a href="https://github.com/jamesnesfield/emphassist"><p class="footer text-left">fork me on GitHub</p></a>
+                            </div>
+                            <div class="col-sm-6 pull-right">
+                                <a href="http://james.nesfield.org"><p class="footer  text-right">Nesfield Heavy Industries</p></a>
                             </div>
                         </div>
-                    <p class="info">
-                        A super alpha bug-ridden idea exploring the possibilities for rich text to more accurately and more easily express a search query's intent.
-                    </p>
-                    <hr>
-                    <p> Many people overlook the ability for Google search queries to <i><b>exclude</b></i> as well as include words or phrases - the syntax is ugly :</p>
-                    <tt>salsa recipe -tomatoes</tt>
-                    <p>Emphassist uses a familiar typographical approach to make these more advanced searches easier, clearer and more natural :</p>
-                    <tt>salsa recipe <strike>tomatoes</strike></tt>
-                    <hr>
-                    <a href="http://james.nesfield.org"><p class="footer">a hack by james.nesfield.org </p></a>
                     </div>
-
                 </div>
-
             </div>
         </div>
-
-
-
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/sass-bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bower_components/jquery.hotkeys/jquery.hotkeys.js"></script>
+        <script src="bower_components/wysiwyg/index.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
