@@ -26,7 +26,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 .main-image {
 	margin: 0px auto;
 	margin-bottom:40px;
-	width: 90px;
+	width: 150px;
 }
 
 tt {
@@ -46,6 +46,10 @@ hr{
 	margin:20px 0px 70px 0px;
 }
 
+.style-button {
+	margin-right:15px;
+}
+
 .btn-toolbar {
 	margin-left: -5px;
 	margin-bottom: -20px;
@@ -54,11 +58,11 @@ hr{
 }
 
 
-text-left {
+.text-left {
 	text-align:left;
 }
 
-text-right {
+.text-right {
 	text-align:right;
 }
 
@@ -132,6 +136,15 @@ body {
 	}
 }
 
+
+.btn-bottom{
+	color: #B2B2B2 !important;
+	background-color: #FFF !important;
+	border-color: #EEE !important;
+	margin-top:70px;
+	font-family:"Avenir";
+}
+
 /* Custom page footer */
 .footer {
 	padding-top: 19px;
@@ -161,6 +174,17 @@ body {
 	}
 }
 
+@media only screen and (max-device-width: 650px) {
+.text-left {
+	text-align:center;
+}
+
+.text-right {
+	text-align:center;
+}
+
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
 	.container {
@@ -184,4 +208,5 @@ body {
 	.jumbotron {
 		border-bottom: 0;
 	}
+
 }
