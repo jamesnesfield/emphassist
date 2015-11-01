@@ -14,14 +14,23 @@
         <!-- bower:css -->
         <link rel="stylesheet" href="bower_components/sass-bootstrap/dist/css/bootstrap.css" />
         <!-- endbower -->
+
+        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
         <script src="bower_components/modernizr/modernizr.js"></script>
-        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@jamesnesfield">
+<meta name="twitter:creator" content="@jamesnesfield">
+<meta name="twitter:title" content="Emphassist Search Concept">
+<meta name="twitter:description" content="exploring the possibilities for rich text to more accurately and more easily express a search query's intent.">
+<meta name="twitter:image" content="http://emphassist.org/images/emph.gif">
 
     </head>
     <body>
@@ -29,59 +38,58 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="container">
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    <div class="col-sm-offset-2 col-sm-8 centering"> 
-                    <div class="row">
-                        <div class="main-image">
-                            <img src="images/emph.gif">
-                        </div>
+        <div class="container no-padding">
+            <div class="col-sm-offset-2 col-sm-8 centering"> 
+                <div class="row">
+                    <div class="main-image">
+                        <img src="images/emph.gif">
                     </div>
-                    <div class="btn-toolbar" data-role="editor-toolbar" data-target="#search">
-                    <div class="btn-group pull-right style-button">
-                        <a class="btn btn-default" data-edit="strikethrough" title="Strikethrough"><i class="fa fa-strikethrough"></i></a>
-                      </div>
-                    </div>
-
-                        <div class="input-group">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default" type="button" id="search-button"><span class="glyphicon glyphicon-search"/></button>
-                            </span>
-                            <div id="search"></div>
-                        </div>
-                        <p class="info">
-                            A super alpha bug-ridden idea exploring the possibilities for rich text to more accurately and more easily express a search query's intent.
-                        </p>
-                        <hr>
-                        <p> Many people overlook the ability for Google search queries to <i><b>exclude</b></i> as well as include words or phrases - the syntax is ugly :</p>
-                        <p>
-                            <tt>salsa recipe -tomatoes</tt>
-                        </p>
-                        <p>emphassist uses a familiar typographical approach to make these more advanced searches easier, clearer and more natural :</p>
-                        <p>
-                            <tt>salsa recipe <strike>tomatoes</strike></tt>
-                        </p>
-                        <hr>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <a class="btn btn-default btn-block btn-bottom" href="https://github.com/jamesnesfield/emphassist">GitHub</a>
-                            </div>
-                            <div  class="col-sm-6">
-                                <a class="btn btn-default btn-block btn-bottom" href="http://james.nesfield.org">james nesfield</a>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+                <div class="btn-toolbar" data-role="editor-toolbar" data-target="#search" style="color:#000;">
+<!--                     <div class="btn-group pull-right style-button">
+ -->                        <a class="btn btn-default pull-right" data-edit="strikethrough" title="Strikethrough"><i class="fa fa-strikethrough"></i></a>
+                        <tt class="pull-right hint">cmd+s</tt>
+<!--                     </div>
+ -->                </div>
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" id="search-button"><span class="glyphicon glyphicon-search"/></button>
+                    </span>
+                    <div id="search"></div>
+                </div>
+                <p class="info text-center">
+                    Using rich text to more <em>accurately</em>, <strong>clearly</strong> and <u>easily</u> express a search term's intent
+                </p>
+                <hr>
+                <p> Many people overlook the ability for <a href="https://support.google.com/websearch/answer/2466433">Google</a>  queries to <i><b>exclude</b></i> as well as include words or phrases - the syntax is ugly :</p>
+                <p class="text-center">
+                    <tt >salsa recipe -tomatoes</tt>
+                </p>
+                <p>Emphassist uses familiar typographical modifiers to make these more advanced searches easier, clearer and more natural :</p>
+                <p  class="text-center">
+                    <tt>salsa recipe <strike>tomatoes</strike></tt>
+                </p>
+                <hr>
+                <div class="col-sm-4 padding-right ">
+                    <a class="btn btn-default btn-block btn-bottom" href="https://github.com/jamesnesfield/emphassist">GitHub</a>
+                </div>
+                <div  class="col-sm-4 padding-center ">
+                    <a class="btn btn-default btn-block btn-bottom" href="http://jamesnesfield.com">jamesnesfield.com</a>
+                </div>
+                <div  class="col-sm-4 padding-left">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-via="jamesnesfield" data-size="large" data-count="none" data-hashtags="emphassist"></a>
                 </div>
             </div>
         </div>
 
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/jquery.js"></script>
-        <script src="bower_components/sass-bootstrap/dist/js/bootstrap.js"></script>
         <script src="bower_components/jquery.hotkeys/jquery.hotkeys.js"></script>
-        <script src="bower_components/wysiwyg/index.js"></script>
+        <script src="bower_components/sass-bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bower_components/bootstrap-wysiwyg/bootstrap-wysiwyg.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -98,18 +106,7 @@
         </script>
 
         <!-- build:js scripts/plugins.js -->
-        <script src="bower_components/sass-bootstrap/js/affix.js"></script>
-        <script src="bower_components/sass-bootstrap/js/alert.js"></script>
-        <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
-        <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
-        <script src="bower_components/sass-bootstrap/js/modal.js"></script>
-        <script src="bower_components/sass-bootstrap/js/transition.js"></script>
-        <script src="bower_components/sass-bootstrap/js/button.js"></script>
-        <script src="bower_components/sass-bootstrap/js/popover.js"></script>
-        <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
-        <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
-        <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
-        <script src="bower_components/sass-bootstrap/js/tab.js"></script>
+
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->

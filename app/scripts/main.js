@@ -1,7 +1,18 @@
 'use strict';
 
-$('#search').wysiwyg();
+$('#search').wysiwyg({
+  hotKeys: {
+    'ctrl+b meta+b': 'bold',
+    'ctrl+i meta+i': 'italic',
+    'ctrl+s meta+s': 'strikethrough',
+    'ctrl+u meta+u': 'underline',
+    'ctrl+z meta+z': 'undo',
+    'ctrl+y meta+y meta+shift+z': 'redo'
+  }
+});
 $('#search').focus();
+
+
 
 function search() {
 	if ($('#search').cleanHtml().length>0) {
