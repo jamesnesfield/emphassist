@@ -9838,12 +9838,13 @@ body {
   border-color: #EEE !important;
   font-family: "Avenir";
   height: 30px;
+  line-height: 16px;
 }
 
 /* Responsive: Portrait tablets and up */
 
 @media screen and (min-width: 768px) {
-  /* line 146, ../../app/styles/main.scss */
+  /* line 147, ../../app/styles/main.scss */
 
   .container {
     max-width: 730px;
