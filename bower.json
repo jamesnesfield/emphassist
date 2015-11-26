@@ -6,8 +6,7 @@
     "modernizr": "~2.6.2",
     "jquery": "~1.10.2",
     "jquery.hotkeys": "https://github.com/jeresig/jquery.hotkeys.git#~0.1.0",
-    "font-awesome": "~4.0.3",
-    "bootstrap": "~3.3.6"
+    "font-awesome": "~4.0.3"
   },
   "devDependencies": {}
 }
