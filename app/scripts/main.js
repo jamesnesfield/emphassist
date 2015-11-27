@@ -267,7 +267,7 @@ $('#search').keypress(function(event) {
 	}
 });
 
-$('#search-button').on('click', function(event) {
+$('.search-button').on('click', function(event) {
 	event.preventDefault(); // To prevent following the link (optional)
 	search();
 });
