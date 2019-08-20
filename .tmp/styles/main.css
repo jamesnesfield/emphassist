@@ -9691,7 +9691,7 @@ td.visible-print {
 /* line 30, ../../app/styles/main.scss */
 
 .info {
-  margin: 60px 0px;
+  margin: 100px 0px;
   font-size: 1.7em;
 }
 
@@ -9725,7 +9725,7 @@ hr {
 /* line 54, ../../app/styles/main.scss */
 
 .input-group {
-  margin: 20px 0px 70px 0px;
+  margin: 20px 0px 20px 0px;
 }
 
 /* line 58, ../../app/styles/main.scss */
