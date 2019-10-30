@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "rimraf": "~2.2.6",
-    "diff": "~1.0.8",
+    "diff": "~4.0.1",
     "async": "~0.2.10"
   },
   "devDependencies": {
